@@ -251,6 +251,33 @@ header{
 
 }
 
+.sessao-iam{
+    width: 100%;
+    height: 100vh;
+    background-color: ghostwhite;
+}
+
+.iam-header {
+    display: flex;
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    color: #4d4d4d;
+    border-bottom: solid 3px #ff8800;
+    margin: 1rem 3.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.iam p{
+    display: flex;
+    font-family: var(--font-secundary);
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    margin: 1rem 3.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
 .conhecimentos{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
